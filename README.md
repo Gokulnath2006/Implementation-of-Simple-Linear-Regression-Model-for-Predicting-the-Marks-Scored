@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import mean_squared_error
 
-df= pd.read_csv('data.csv')
+df= pd.read_csv('student_scores.csv')
 
 df.head()
 df.tail()
